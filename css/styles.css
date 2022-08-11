@@ -1,0 +1,244 @@
+/* основний колір #2196F3 */
+/* основний чорний колір #212121 */
+/* колір тексту #757575 */
+/* білий колір #FFFFFF */
+:root {
+    --color-links : #2196F3;
+    --text-color : #757575;
+    --white-color : #FFFFFF;
+    --black-color : #212121;
+    /* змінні для сторінки портфоліо */
+    --main-black: rgba(33, 33, 33, 1); ;
+    --secondary-grey: rgba(117, 117, 117, 1);
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+/* logo */
+.logo-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+   color: var(--color-links);
+}
+
+.logo-second-word {
+    color: #000000;
+}
+
+
+/* page navigation */
+.page-link:hover, 
+.page-link:focus {
+ color: var(--color-links);
+}
+
+.page-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+}
+/* address */
+.address-header:hover,
+.address-header:focus {
+ color: var(--color-links);
+}
+
+.address-header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+
+.phone-header:hover,
+.phone-header:focus {
+    color: var(--color-links);
+}
+
+.phone-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.hero-button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+    background-color: var(--color-links);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* our benefits */
+.benefits-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+/* our occupation */
+.occupation {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+    color: var(--black-color);
+}
+
+/* our team */
+.team {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+    color: var(--black-color);
+}
+
+.team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.88;
+    color: var(--black-color);
+}
+
+.team-position {
+        font-size: 16px;
+        line-height: 1.88;
+    color: var(--text-color);
+}
+
+/* footer */
+.footer {
+ background-color: #2F303A ;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+    color: var(--color-links);
+}
+
+.logo-footer-second {
+font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color);
+}
+
+.place {
+    font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+    color: var(--white-color);
+}
+
+.address-footer {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.phone-footer {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6) ;
+}
+
+/* сторінка портфоліо */
+.portfolio-portfolio:hover,
+.portfolio-portfolio:focus {
+    color: var(--color-links);
+}
+
+.main-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+    color: var(--main-black);
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.main-button:hover, 
+.main-button:focus{
+    color: var(--white-color);
+    background-color: var(--color-links);
+}
+
+.secondary-button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        color: var(--main-black);
+        background-color: rgba(245, 244, 250, 1);
+}
+
+.secondary-button:hover, 
+.secondary-button:focus {
+    color: var(--white-color);
+    background-color: var(--color-links);
+}
+
+.results-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    color: var(--main-black);
+}
+
+.results-text {
+        font-size: 16px;
+        line-height: 1.88;
+    color: var(--secondary-grey);
+}
