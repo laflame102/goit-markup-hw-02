@@ -15,6 +15,7 @@
 body {
 font-family: 'Roboto', sans-serif;
 letter-spacing: 0.03em;
+background-color: var(--white-color);
 }
 
 .link {
@@ -24,6 +25,20 @@ letter-spacing: 0.03em;
 .list {
     list-style: none;
 }
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 /* logo */
 .logo-name {
     font-family: 'Raleway';
@@ -49,12 +64,14 @@ letter-spacing: 0.03em;
  color: var(--color-links);
 }
 
+
 .page-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--black-color);
+
 }
 /* address */
 .address-header:hover,
@@ -124,6 +141,7 @@ letter-spacing: 0.03em;
 }
 
 /* our occupation */
+
 .occupation {
         font-weight: 700;
         font-size: 36px;
@@ -133,6 +151,10 @@ letter-spacing: 0.03em;
 }
 
 /* our team */
+.our-team {
+    background-color: #F5F4FA ;
+}
+
 .team {
         font-weight: 700;
         font-size: 36px;
@@ -189,12 +211,23 @@ font-family: 'Raleway';
     color: rgba(255, 255, 255, 0.6);
 }
 
+.address-footer:hover,
+.address-footer:focus{
+    color: var(--color-links);
+}
+
 .phone-footer {
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
     color: rgba(255, 255, 255, 0.6) ;
 }
+
+.phone-footer:hover,
+.phone-footer:focus {
+    color: var(--color-links);
+}
+
 
 /* сторінка портфоліо */
 .portfolio-portfolio:hover,
@@ -203,6 +236,7 @@ font-family: 'Raleway';
 }
 
 .main-button {
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
@@ -217,6 +251,7 @@ font-family: 'Raleway';
 }
 
 .secondary-button{
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.63;
